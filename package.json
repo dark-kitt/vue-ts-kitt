@@ -2,7 +2,10 @@
   "name": "vue-ts-kitt",
   "version": "0.0.0",
   "description": "Vue 3 / TypeScript 5 library for UI components / modules",
-  "repository": "https://github.com/dark-kitt/vue-ts-kitt.git",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/dark-kitt/vue-ts-kitt.git"
+  },
   "author": "dark-kitt <42038118+dark-kitt@users.noreply.github.com>",
   "license": "CC-BY-4.0",
   "packageManager": "yarn@4.2.1",

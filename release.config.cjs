@@ -7,7 +7,6 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        preset: "angular",
         releaseRules: [
           { scope: "no-release", release: false },
           { scope: "breaking", release: "major" },
@@ -26,7 +25,6 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "angular",
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"]
         },

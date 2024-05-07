@@ -44,4 +44,4 @@ The format of your commit message must match the following rules to make it inte
 <sub>Note: It is optional, to use this `helper symbols` to shorten your commit message</sub>
 
 ### Push major releases
-It is only possible to push a `major release` with the following options. Use the scope `breaking` and/or describe your breaking change underneath the following subheads `BREAKING CHANGE:` or `BREAKING CHANGES:` in the body of your commit message. Combine this with each minor or patch update.
+It is only possible to push a `major release` with the following options. Use the scope `breaking` and/or describe your breaking change underneath the following subheads `BREAKING CHANGE:` or `BREAKING CHANGES:` in the `<body>` of your commit message. Combine this with each minor or patch update.

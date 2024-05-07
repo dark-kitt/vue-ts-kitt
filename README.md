@@ -3,8 +3,17 @@
 This project uses Yarn 4 as package manager. So, **don't** use `npm` to install the modules. \
 <sub>(_Troubleshoot: Please take a look on ["**Starting with Yarn**"](https://yarnpkg.com/getting-started)_)</sub>
 
+Start by enabling Corepack, if it isn't already. This will add the yarn binary to your PATH.
 ```shell
-corepack enable && yarn
+corepack enable
+```
+Install the defined modules of the package.json file.
+```shell
+yarn
+```
+Generate the sdks for VS Code.
+```shell
+yarn dlx @yarnpkg/sdks vscode
 ```
 
 ## Semantic Release

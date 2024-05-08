@@ -29,13 +29,12 @@ jobs:
           node-version: '20.x'
       - name: Install dependencies
         run: |
-          corepack enable
-          yarn
-          yarn add -D conventional-changelog-conventionalcommits
-      - name: Perform a vulnerability audit against the installed packages
-        run: yarn npm audit
+          npm install
+          npm install -D conventional-changelog-conventionalcommits
+      - name: Ensure the integrity of packages from the public npm registry
+        run: npm audit signatures
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GTHB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn dlx semantic-release
+        run: npx semantic-release

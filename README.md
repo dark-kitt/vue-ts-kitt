@@ -16,6 +16,14 @@ Generate the sdks for VS Code.
 yarn dlx @yarnpkg/sdks vscode
 ```
 
+## Git hooks
+
+It is necessary to set the custom hook directory, after each clone. To do so, you need to call the following command.
+```shell
+git config core.hooksPath .hooks
+```
+Afterward, the `pre-commit` hook inside the .hooks directory will `lint` your `commit messages`.
+
 ## Semantic Release
 It is used to automate the package release workflow by your commit messages.
 ```text

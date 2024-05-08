@@ -2,6 +2,8 @@
 MESSAGE_IS_VALID=false;
 # Retrieve the commit message
 COMMIT_MESSAGE=$(cat $1);
+# Retrieve the allowed message types from the ./release.config.cjs file
+MESSAGE_TYPES=$(cat ./release.config.cjs | grep -E -i '@ALLOWED_MESSAGE_TYPES' | cut -d '[' -f 2 | cut -d ']' -f 1);
 # Global error message
 ERROR_MESSAGE="
 --- --- ---
@@ -14,13 +16,12 @@ The commit message does not match the correct pattern!
 (</body>)
 
 Note: The usage of <scope>, <symbol> and <body> is optional
+Accepted <types>: $MESSAGE_TYPES
 
 Please follow the instruction on:
 https://github.com/dark-kitt/vue-ts-kitt?tab=readme-ov-file#semantic-release
 --- --- ---
 ";
-# Retrieve the allowed message types from the ./release.config.cjs file
-MESSAGE_TYPES=$(cat ./release.config.cjs | grep -E -i '@ALLOWED_MESSAGE_TYPES' | cut -d '[' -f 2 | cut -d ']' -f 1);
 # Split the $MESSAGE_TYPES (feat, fix, ..etc.) string into an array of values
 IFS=', ' read -r -a types <<< "$MESSAGE_TYPES";
 # Loop through the commit message types
@@ -71,6 +72,7 @@ if [[ $MESSAGE_IS_VALID == true ]]; then
 fi
 # throw error
 echo "\n[ERROR]: Commit linter";
+echo "[ERROR]: Maybe a <type> that isn't accepted? [$MESSAGE_TYPES]";
 echo "$ERROR_MESSAGE";
 echo "\n[COMMIT_MESSAGE]:\n$COMMIT_MESSAGE";
 exit 1;

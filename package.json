@@ -4,7 +4,7 @@
   "description": "Vue 3 / TypeScript 5 library for UI components / modules",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dark-kitt/vue-ts-kitt.git"
+    "url": "git+https://github.com/dark-kitt/vue-ts-kitt.git"
   },
   "author": "dark-kitt <42038118+dark-kitt@users.noreply.github.com>",
   "license": "CC-BY-4.0",
@@ -17,7 +17,7 @@
     "@typescript-eslint/parser": "^7.8.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-typescript": "^13.0.0",
-    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "conventional-changelog-angular": "^8.0.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",

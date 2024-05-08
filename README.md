@@ -1,7 +1,5 @@
 # Vue 3 / TypeScript 5 library for UI components / modules
 
-test commit
-
 This project uses Yarn 4 as package manager. So, **don't** use `npm` to install the modules. \
 <sub>(_Troubleshoot: Please take a look on ["**Starting with Yarn**"](https://yarnpkg.com/getting-started)_)</sub>
 

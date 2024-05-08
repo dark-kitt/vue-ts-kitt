@@ -16,9 +16,9 @@ Generate the sdks for VS Code.
 yarn dlx @yarnpkg/sdks vscode
 ```
 
-## Git hooks
+## Git Hooks
 
-It is necessary to set the custom hook directory, after each clone. To do so, you need to call the following command.
+It is necessary to set the custom hook directory after each clone. To do so, you need to call the following command.
 ```shell
 git config core.hooksPath .hooks
 ```

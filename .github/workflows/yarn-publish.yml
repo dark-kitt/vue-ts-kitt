@@ -28,9 +28,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install dependencies
-        run: |
-          npm install
-          npm install -D conventional-changelog-conventionalcommits
+        run: npm install
       - name: Ensure the integrity of packages from the public npm registry
         run: npm audit signatures
       - name: Release

@@ -31,12 +31,11 @@ jobs:
         run: |
           corepack enable
           yarn
+          yarn add -D conventional-changelog-conventionalcommits
       - name: Perform a vulnerability audit against the installed packages
         run: yarn npm audit
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GTHB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          yarn add -D conventional-changelog-conventionalcommits
-          yarn dlx semantic-release
+        run: yarn dlx semantic-release

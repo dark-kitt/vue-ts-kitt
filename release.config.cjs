@@ -1,11 +1,11 @@
 /**
  * Semantic Release configuration file.
- * 
+ *
  * Used to automate the package release workflow
  * by your commit messages.
- * 
+ *
  * @type {import('semantic-release').GlobalConfig}
- * 
+ *
  * Configuration of the git commit-msg hook:
  * @ALLOWED_MESSAGE_TYPES=[feat, fix, style, test];
  * This is necessary to validate the commit messages locally
@@ -32,6 +32,18 @@ module.exports = {
       }
     ],
     '@semantic-release/release-notes-generator',
-    '@semantic-release/npm'
+    [
+      '@semantic-release/npm',
+      {
+        pkgRoot: 'dist'
+      }
+    ],
+    [
+      '@semantic-release/git',
+      {
+        assets: ['CHANGELOG.md', 'package.json'],
+        message: '[RELEASE]: ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
+      }
+    ]
   ]
 };

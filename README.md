@@ -43,7 +43,7 @@ The format of your commit message must match the following rules to make it inte
 | `style(components): - button bg-color` | patch | To update specific style / CSS changes of anything |
 | `test(components): ~ button bg-color` | false | Ignored by semantic release, to create test cases |
 
-<sub>Note: It is not necessary to define a scope. You can write each `commit message type` also without a scope (`fix: ~ button icon property`).</sub>
+<sub>Note: It is not necessary to define a scope. You can write each `commit message type` also without a scope (`fix: ~ button icon property`)</sub>
 
 | Commit message `<scopes>` | Value | Description |
 | :--- | - | :--- |
@@ -62,3 +62,6 @@ The format of your commit message must match the following rules to make it inte
 
 ### Push major releases
 It is only possible to push a `major release` with the following options. Use the scope `breaking` and/or describe your breaking change underneath the following subheads `BREAKING CHANGE:` or `BREAKING CHANGES:` in the `<body>` of your commit message. Combine this with each minor or patch update.
+
+<sub>Note: It is recommended to include `[skip ci]` in the commit message if you won't trigger a new release</sub>
+

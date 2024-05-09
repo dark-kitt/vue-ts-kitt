@@ -55,9 +55,9 @@
   "keywords": [
     "vue",
     "vue3",
-    "typescript",
     "vite",
     "library",
-    "component"
+    "component",
+    "typescript"
   ]
 }

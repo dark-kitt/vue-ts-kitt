@@ -1,4 +1,4 @@
-// import { default as Button } from '@/components/Button';
-import Button from '@/components/Button/Button.vue';
+import { default as Button } from '@/components/Button';
+// import Button from '@/components/Button';
 
-export { Button };
+export default { Button };

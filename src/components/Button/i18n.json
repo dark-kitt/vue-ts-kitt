@@ -1,0 +1,7 @@
+{
+  "text": "Click Me!",
+  "HTMLAttributes": {
+    "name": "button-name",
+    "type": "button"
+  }
+}

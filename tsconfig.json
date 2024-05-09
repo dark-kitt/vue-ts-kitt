@@ -1,29 +1,31 @@
 {
   "compilerOptions": {
-    // "composite": true,
-    // "tsBuildInfoFile": ".yarn/cache/tsconfig.app.tsbuildinfo",
     "target": "ESNext",
-    // "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    // "strict": true,
-    // "declaration": true,
-    // "declarationDir": "src/@types",
+    "declaration": true,
+    "declarationDir": "src/@types",
+    "emitDeclarationOnly": true,
     "noFallthroughCasesInSwitch": true,
-    // "forceConsistentCasingInFileNames": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    // "resolveJsonModule": true,
-    // "isolatedModules": true,
-    // "noEmit": true,
-    // "jsx": "preserve",
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "verbatimModuleSyntax": true,
     "baseUrl": ".",
-    "outDir": "src/@types",
+    "outDir": "dist",
     "paths": {
-      "@/*": ["src/*", "src/*/index.ts"],
-      "@components/*": ["src/components/Button/index.vue"]
+      "@/*": [
+        "src/*"
+      ]
     },
-    "lib": ["ESNext", "DOM"]
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client", "node"]
   },
   "include": [
     "src/**/*.vue",

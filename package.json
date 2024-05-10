@@ -39,13 +39,9 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "main": "./dist/index.js",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    },
+    ".": "./dist/index.js",
     "./style.css": "./dist/style.css"
   },
   "types": "./dist/index.d.ts",

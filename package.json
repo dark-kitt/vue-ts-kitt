@@ -1,6 +1,6 @@
 {
   "name": "vue-ts-kitt",
-  "version": "1.5.9",
+  "version": "1.5.10",
   "description": "Vue 3 / TypeScript 5 library for UI components / modules",
   "repository": {
     "type": "git",
@@ -49,9 +49,9 @@
   "scripts": {
     "build": "vite build"
   },
-	"bin": {
-		"kitt-docs": "./bin/kitt-docs.js"
-	},
+  "bin": {
+    "kitt-docs": "./bin/kitt-docs.js"
+  },
   "keywords": [
     "vue",
     "vue3",

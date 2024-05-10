@@ -13,7 +13,7 @@ yarn add -D vue-ts-kitt
 npm i -D vue-ts-kitt
 ```
 
-## Work in the library
+## Working in the library
 
 This project uses Yarn 4 as package manager. So, **don't** use `npm` to install the modules. \
 <sub>(_Troubleshoot: Please take a look on ["**Starting with Yarn**"](https://yarnpkg.com/getting-started)_)</sub>

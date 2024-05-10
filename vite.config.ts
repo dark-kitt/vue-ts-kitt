@@ -13,8 +13,7 @@ export default defineConfig({
     vue(),
     dts({
       outDir: ['dist', 'src/@types'],
-      cleanVueFileName: true,
-      staticImport: true
+      cleanVueFileName: true
     })
   ],
   resolve: {

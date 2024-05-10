@@ -1,16 +1,16 @@
-import { ButtonHTMLAttributes, DefineComponent, ComponentOptionsMixin, PublicProps, ExtractPropTypes, PropType } from 'vue';
+import { ButtonHTMLAttributes } from 'vue';
 
 export interface Props {
     text: string;
     HTMLAttributes?: ButtonHTMLAttributes;
 }
-declare const _default: DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+declare const _default: import('vue').DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     text: string;
     HTMLAttributes: () => {
         name: string;
         type: "button" | "submit" | "reset" | undefined;
     };
-}>, {}, unknown, {}, {}, ComponentOptionsMixin, ComponentOptionsMixin, {}, string, PublicProps, Readonly< ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+}>, {}, unknown, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     text: string;
     HTMLAttributes: () => {
         name: string;
@@ -24,9 +24,9 @@ export default _default;
 type __VLS_NonUndefinedable<T> = T extends undefined ? never : T;
 type __VLS_TypePropsToRuntimeProps<T> = {
     [K in keyof T]-?: {} extends Pick<T, K> ? {
-        type: PropType<__VLS_NonUndefinedable<T[K]>>;
+        type: import('vue').PropType<__VLS_NonUndefinedable<T[K]>>;
     } : {
-        type: PropType<T[K]>;
+        type: import('vue').PropType<T[K]>;
         required: true;
     };
 };

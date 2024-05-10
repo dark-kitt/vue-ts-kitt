@@ -2,7 +2,7 @@
 
 Another Vue 3 component / module library that includes TypeScript 5 and is bundled by vite.
 
-# ⚠️ Library is still in progress and not finalised ⚠️
+# ⚠️ Library is still in progress and not finalised
 
 ## Install
 
@@ -30,6 +30,11 @@ Generate the sdks for VS Code.
 ```shell
 yarn dlx @yarnpkg/sdks vscode
 ```
+Generate the output.
+```shell
+yarn build
+```
+If you need an example to create a component, take a look at the button component.
 
 ## Git Hooks
 

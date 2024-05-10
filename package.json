@@ -37,6 +37,7 @@
   },
   "type": "module",
   "files": [
+    "bin",
     "dist"
   ],
   "main": "./dist/index.js",
@@ -48,6 +49,9 @@
   "scripts": {
     "build": "vite build"
   },
+	"bin": {
+		"kitt-docs": "./bin/kitt-docs.js"
+	},
   "keywords": [
     "vue",
     "vue3",

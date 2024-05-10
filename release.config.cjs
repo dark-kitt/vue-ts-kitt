@@ -7,7 +7,7 @@
  * @type {import('semantic-release').GlobalConfig}
  *
  * Configuration of the git commit-msg hook:
- * @ALLOWED_MESSAGE_TYPES=[feat, fix, style, test];
+ * @ALLOWED_MESSAGE_TYPES=[minor, feat, patch, fix, style, test];
  * This is necessary to validate the commit messages locally
  */
 module.exports = {
@@ -18,7 +18,9 @@ module.exports = {
       {
         preset: 'angular',
         releaseRules: [
+          { type: 'minor', release: 'minor' },
           { type: 'feat', release: 'minor' },
+          { type: 'patch', release: 'patch' },
           { type: 'fix', release: 'patch' },
           { type: 'style', release: 'patch' },
           { type: 'test', release: false },
@@ -32,6 +34,7 @@ module.exports = {
       }
     ],
     '@semantic-release/release-notes-generator',
+    '@semantic-release/changelog',
     '@semantic-release/npm',
     [
       '@semantic-release/git',

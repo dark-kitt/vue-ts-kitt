@@ -2,6 +2,8 @@
 
 Another Vue 3 component / module library that includes TypeScript 5 and is bundled by vite.
 
+# ⚠️ Library is still in progress and not finalised ⚠️
+
 ## Install
 
 ```shell

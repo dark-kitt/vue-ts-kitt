@@ -15,7 +15,8 @@ withDefaults(defineProps<Props>(), {
   text: i18n.text,
   HTMLAttributes: () => ({
     name: i18n.HTMLAttributes.name,
-    type: i18n.HTMLAttributes.type as ButtonHTMLAttributes['type']
+    type: i18n.HTMLAttributes.type as ButtonHTMLAttributes['type'],
+    disabled: false
   })
 });
 </script>

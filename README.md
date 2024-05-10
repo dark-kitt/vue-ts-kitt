@@ -1,5 +1,18 @@
 # Vue 3 / TypeScript 5 library for UI components / modules
 
+Another Vue 3 component / module library that includes TypeScript 5 and is bundled by vite.
+
+## Install
+
+```shell
+yarn add -D vue-ts-kitt
+```
+```shell
+npm i -D vue-ts-kitt
+```
+
+## Work in the library
+
 This project uses Yarn 4 as package manager. So, **don't** use `npm` to install the modules. \
 <sub>(_Troubleshoot: Please take a look on ["**Starting with Yarn**"](https://yarnpkg.com/getting-started)_)</sub>
 

@@ -51,7 +51,7 @@
     "build": "vite build"
   },
   "bin": {
-    "kitt-docs": "./bin/kitt-docs.js"
+    "vue-ts-docs": "./.bin/vue-ts-docs.js"
   },
   "keywords": [
     "vue",

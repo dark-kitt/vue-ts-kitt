@@ -9,12 +9,14 @@ declare const _default: import('vue').DefineComponent<__VLS_WithDefaults<__VLS_T
     HTMLAttributes: () => {
         name: string;
         type: "button" | "submit" | "reset" | undefined;
+        disabled: boolean;
     };
 }>, {}, unknown, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     text: string;
     HTMLAttributes: () => {
         name: string;
         type: "button" | "submit" | "reset" | undefined;
+        disabled: boolean;
     };
 }>>>, {
     text: string;

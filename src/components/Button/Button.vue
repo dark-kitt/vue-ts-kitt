@@ -2,7 +2,11 @@
   <button
     v-bind="HTMLAttributes"
     class="kitt-button"
-    :class="[primary ? 'kitt-button--primary' : null, size ? `kitt-button--${size}` : null]"
+    :class="[
+      'kitt-button',
+      primary ? 'kitt-button--primary' : null,
+      size ? `kitt-button--${size}` : null
+    ]"
   >
     {{ text }}
   </button>

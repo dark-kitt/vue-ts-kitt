@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.7.1...v1.8.0) (2024-05-12)
+
+
+### Bug Fixes
+
+* **components:** + button css class string ([2b95f0b](https://github.com/dark-kitt/vue-ts-kitt/commit/2b95f0bbf58abd03bf70c42f1eaaf5e353feb5bf))
+* **vite:** ~ dts output ([b3fa5a7](https://github.com/dark-kitt/vue-ts-kitt/commit/b3fa5a7a78052c4d431130183892c0d1b35fb695))
+
+
+### Features
+
+* **readme:** + usage ([b943987](https://github.com/dark-kitt/vue-ts-kitt/commit/b943987e89a9786d6623da6396d977e1e2d8dc19))
+
 ## [1.7.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.7.0...v1.7.1) (2024-05-12)
 
 # [1.7.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.5...v1.7.0) (2024-05-12)

@@ -58,9 +58,11 @@ detailed information about your changes
 The format of your commit message must match the following rules to make it interpretable for Semantic Release.
 | Commit message `<types>` | Value | Description |
 | :--- | - | :--- |
-| `feat(components): + button with icons` | minor | Describe your changes for a edited or new feature |
-| `fix(components): ~ button icon.url property` | patch | If you create some small changes / hotfixes |
-| `style(components): - button bg-color` | patch | To update specific style / CSS changes of anything |
+| `minor(components): + button, input and link` | minor | Changes for a minor update |
+| `feat(components): + button with icons` | minor | For an edited or new feature |
+| `patch(components): ~ label [for] attribute type` | patch | Changes for a patch update |
+| `fix(components): ~ button icon.url property` | patch | Bugfixes / Hotfixes / Coldfixes |
+| `style(components): - button bg-color` | patch | For specific styles / CSS changes |
 | `test(components): ~ button bg-color` | false | Ignored by semantic release, to create test cases |
 
 <sub>Note: It is not necessary to define a scope. You can write each `commit message type` also without a scope (`fix: ~ button icon property`)</sub>

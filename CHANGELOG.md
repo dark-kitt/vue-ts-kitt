@@ -1,3 +1,5 @@
+## [1.7.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.7.0...v1.7.1) (2024-05-12)
+
 # [1.7.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.5...v1.7.0) (2024-05-12)
 
 

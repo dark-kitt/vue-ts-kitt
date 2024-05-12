@@ -1,6 +1,6 @@
 <template>
   <button
-    v-bind="HTMLAttributes"
+    v-bind="htmlAttributes"
     class="kitt-button"
     :class="[
       'kitt-button',
@@ -20,16 +20,16 @@ export interface Props {
   primary?: boolean;
   size?: 'small' | 'medium' | 'large';
   text: string;
-  HTMLAttributes?: ButtonHTMLAttributes;
+  htmlAttributes?: ButtonHTMLAttributes;
 }
 
 withDefaults(defineProps<Props>(), {
   primary: true,
   size: 'medium',
   text: i18n.text,
-  HTMLAttributes: () => ({
-    name: i18n.HTMLAttributes.name,
-    type: i18n.HTMLAttributes.type as ButtonHTMLAttributes['type'],
+  htmlAttributes: () => ({
+    name: i18n.htmlAttributes.name,
+    type: i18n.htmlAttributes.type as ButtonHTMLAttributes['type'],
     disabled: false
   })
 });

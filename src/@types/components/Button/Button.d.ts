@@ -1,10 +1,14 @@
 import { ButtonHTMLAttributes } from 'vue';
 
 export interface Props {
+    primary?: boolean;
+    size?: 'small' | 'medium' | 'large';
     text: string;
     HTMLAttributes?: ButtonHTMLAttributes;
 }
 declare const _default: import('vue').DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+    primary: boolean;
+    size: string;
     text: string;
     HTMLAttributes: () => {
         name: string;
@@ -12,6 +16,8 @@ declare const _default: import('vue').DefineComponent<__VLS_WithDefaults<__VLS_T
         disabled: boolean;
     };
 }>, {}, unknown, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+    primary: boolean;
+    size: string;
     text: string;
     HTMLAttributes: () => {
         name: string;
@@ -19,6 +25,8 @@ declare const _default: import('vue').DefineComponent<__VLS_WithDefaults<__VLS_T
         disabled: boolean;
     };
 }>>>, {
+    primary: boolean;
+    size: "small" | "medium" | "large";
     text: string;
     HTMLAttributes: ButtonHTMLAttributes;
 }, {}>;

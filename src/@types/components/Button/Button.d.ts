@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from '../../../vue/dist/vue.esm-bundler.js';
+import { ButtonHTMLAttributes, DefineComponent, ComponentOptionsMixin, PublicProps, ExtractPropTypes, PropType } from 'vue';
 
 export interface Props {
     primary?: boolean;
@@ -6,7 +6,7 @@ export interface Props {
     text: string;
     HTMLAttributes?: ButtonHTMLAttributes;
 }
-declare const _default: import('../../../vue/dist/vue.esm-bundler.js').DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+declare const _default: DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     primary: boolean;
     size: string;
     text: string;
@@ -15,7 +15,7 @@ declare const _default: import('../../../vue/dist/vue.esm-bundler.js').DefineCom
         type: "button" | "submit" | "reset" | undefined;
         disabled: boolean;
     };
-}>, {}, unknown, {}, {}, import('../../../vue/dist/vue.esm-bundler.js').ComponentOptionsMixin, import('../../../vue/dist/vue.esm-bundler.js').ComponentOptionsMixin, {}, string, import('../../../vue/dist/vue.esm-bundler.js').PublicProps, Readonly<import('../../../vue/dist/vue.esm-bundler.js').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
+}>, {}, unknown, {}, {}, ComponentOptionsMixin, ComponentOptionsMixin, {}, string, PublicProps, Readonly< ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     primary: boolean;
     size: string;
     text: string;
@@ -34,9 +34,9 @@ export default _default;
 type __VLS_NonUndefinedable<T> = T extends undefined ? never : T;
 type __VLS_TypePropsToRuntimeProps<T> = {
     [K in keyof T]-?: {} extends Pick<T, K> ? {
-        type: import('../../../vue/dist/vue.esm-bundler.js').PropType<__VLS_NonUndefinedable<T[K]>>;
+        type: PropType<__VLS_NonUndefinedable<T[K]>>;
     } : {
-        type: import('../../../vue/dist/vue.esm-bundler.js').PropType<T[K]>;
+        type: PropType<T[K]>;
         required: true;
     };
 };

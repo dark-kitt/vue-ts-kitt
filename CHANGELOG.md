@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.5...v1.7.0) (2024-05-12)
+
+
+### Features
+
+* **storybook:** + Storybook v7.6.19 without MDX support ([568fefa](https://github.com/dark-kitt/vue-ts-kitt/commit/568fefab355d58212d3634fc1d1cfa681370d630))
+
 ## [1.6.5](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.4...v1.6.5) (2024-05-12)
 
 

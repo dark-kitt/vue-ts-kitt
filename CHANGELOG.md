@@ -1,3 +1,11 @@
+## [1.6.5](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.4...v1.6.5) (2024-05-12)
+
+
+### Bug Fixes
+
+* **bin:** ~ custom global script directory ([da352f9](https://github.com/dark-kitt/vue-ts-kitt/commit/da352f97a8f9b6bd1db5664b653a358dd1710230))
+* **components:** ~ button example ([4055bc8](https://github.com/dark-kitt/vue-ts-kitt/commit/4055bc8b8d3e076c271ef2bef879c536c2c73067))
+
 ## [1.6.4](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.6.3...v1.6.4) (2024-05-10)
 
 

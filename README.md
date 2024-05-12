@@ -29,7 +29,26 @@ Or add it to your scripts section in your `package.json` file.
 }
 ```
 
-## Working in the library? Clone the repo [here](https://github.com/dark-kitt/vue-ts-kitt)
+## Usage
+
+```vue
+<template>
+  <div>
+    my project + vue-ts-kitt
+    <Button :html-attributes="{ name: 'my-button' }" :text="'test'" />
+  </div>
+</template>
+
+<script setup lang="ts">
+import { Button } from 'vue-ts-kitt';
+</script>
+
+<style lang="scss">
+@import 'vue-ts-kitt/style.css';
+</style>
+```
+
+## Working in the library.
 
 This project uses Yarn 4 as package manager. So, **don't** use `npm` to install the modules. \
 <sub>(_Troubleshoot: Please take a look on ["**Starting with Yarn**"](https://yarnpkg.com/getting-started)_)</sub>

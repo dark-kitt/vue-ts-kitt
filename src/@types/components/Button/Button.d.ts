@@ -4,13 +4,13 @@ export interface Props {
     primary?: boolean;
     size?: 'small' | 'medium' | 'large';
     text: string;
-    HTMLAttributes?: ButtonHTMLAttributes;
+    htmlAttributes?: ButtonHTMLAttributes;
 }
 declare const _default: DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<Props>, {
     primary: boolean;
     size: string;
     text: string;
-    HTMLAttributes: () => {
+    htmlAttributes: () => {
         name: string;
         type: "button" | "submit" | "reset" | undefined;
         disabled: boolean;
@@ -19,7 +19,7 @@ declare const _default: DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRunt
     primary: boolean;
     size: string;
     text: string;
-    HTMLAttributes: () => {
+    htmlAttributes: () => {
         name: string;
         type: "button" | "submit" | "reset" | undefined;
         disabled: boolean;
@@ -28,7 +28,7 @@ declare const _default: DefineComponent<__VLS_WithDefaults<__VLS_TypePropsToRunt
     primary: boolean;
     size: "small" | "medium" | "large";
     text: string;
-    HTMLAttributes: ButtonHTMLAttributes;
+    htmlAttributes: ButtonHTMLAttributes;
 }, {}>;
 export default _default;
 type __VLS_NonUndefinedable<T> = T extends undefined ? never : T;

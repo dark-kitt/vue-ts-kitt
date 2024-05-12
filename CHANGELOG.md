@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.0...v1.8.1) (2024-05-12)
+
+
+### Bug Fixes
+
+* **button:** ~ property name ([13a08f3](https://github.com/dark-kitt/vue-ts-kitt/commit/13a08f30ef0bc7e6a2bce165f27a045f674fd75d))
+
 # [1.8.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.7.1...v1.8.0) (2024-05-12)
 
 

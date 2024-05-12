@@ -17,7 +17,7 @@ declare const meta: {
             required: true;
             default: string;
         };
-        HTMLAttributes: {
+        htmlAttributes: {
             type: PropType<ButtonHTMLAttributes>;
             default: () => {
                 name: string;
@@ -39,7 +39,7 @@ declare const meta: {
             required: true;
             default: string;
         };
-        HTMLAttributes: {
+        htmlAttributes: {
             type: PropType<ButtonHTMLAttributes>;
             default: () => {
                 name: string;
@@ -51,7 +51,7 @@ declare const meta: {
         primary: boolean;
         size: "small" | "medium" | "large";
         text: string;
-        HTMLAttributes: ButtonHTMLAttributes;
+        htmlAttributes: ButtonHTMLAttributes;
     }, {}>;
     tags: string[];
     argTypes: {

@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.4...v1.9.0) (2024-05-13)
+
+
+### Features
+
+* **components:** + Link component ([ff65d17](https://github.com/dark-kitt/vue-ts-kitt/commit/ff65d17f0ada76fc2873bbd75ba4e1550a022552))
+
 ## [1.8.4](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.3...v1.8.4) (2024-05-13)
 
 

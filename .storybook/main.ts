@@ -1,5 +1,4 @@
 import type { StorybookConfig } from '@storybook/vue3-vite';
-
 import { join, dirname } from 'path';
 
 /**
@@ -25,4 +24,5 @@ const config: StorybookConfig = {
     autodocs: 'tag'
   }
 };
+
 export default config;

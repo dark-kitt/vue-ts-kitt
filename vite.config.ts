@@ -14,7 +14,8 @@ export default defineConfig({
     dts({
       outDir: ['dist', 'src/@types'],
       cleanVueFileName: true,
-      staticImport: true
+      staticImport: true,
+      tsconfigPath: './tsconfig.json'
     })
   ],
   resolve: {

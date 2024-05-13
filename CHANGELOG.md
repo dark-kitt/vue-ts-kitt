@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.3...v1.8.4) (2024-05-13)
+
+
+### Bug Fixes
+
+* **pipeline:** ~ steps order ([32fecd6](https://github.com/dark-kitt/vue-ts-kitt/commit/32fecd6e09f985231c8d52945ee669d6c0acb6f6))
+
 ## [1.8.3](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.2...v1.8.3) (2024-05-13)
 
 

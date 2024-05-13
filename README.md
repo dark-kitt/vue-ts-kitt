@@ -1,6 +1,6 @@
 # Vue 3 / TypeScript 5 library for UI components / modules
 
-Another Vue 3 component / module library that includes TypeScript 5 and is bundled by vite.
+Another Vue 3 component / module library that includes TypeScript 5 and is bundled by Vite.
 
 # ⚠️ Library is still in progress and not finalised
 

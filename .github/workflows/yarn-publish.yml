@@ -31,10 +31,10 @@ jobs:
         run: npm install
       - name: Ensure the integrity of packages from the public npm registry
         run: npm audit signatures
-      - name: Bundle Storybook
-        run: npm run build-storybook
       - name: Bundle Vue 3 library
         run: npm run build
+      - name: Bundle Storybook
+        run: npm run build-storybook
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GTHB_TOKEN }}

@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.2...v1.8.3) (2024-05-13)
+
+
+### Bug Fixes
+
+* **pipeline:** ~ generating dts files ([ac99ac3](https://github.com/dark-kitt/vue-ts-kitt/commit/ac99ac3c9ba4dc6a8944f527282ca2c86394074b))
+
 ## [1.8.2](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.1...v1.8.2) (2024-05-13)
 
 ## [1.8.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.0...v1.8.1) (2024-05-12)

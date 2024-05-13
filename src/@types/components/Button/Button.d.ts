@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, DefineComponent, ComponentOptionsMixin, PublicProps, ExtractPropTypes, PropType } from '../../../vue/dist/vue.esm-bundler.js';
+import { ButtonHTMLAttributes, DefineComponent, ComponentOptionsMixin, PublicProps, ExtractPropTypes, PropType } from 'vue';
 
 export interface Props {
     primary?: boolean;

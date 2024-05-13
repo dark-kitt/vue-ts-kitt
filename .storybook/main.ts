@@ -1,5 +1,6 @@
 import type { StorybookConfig } from '@storybook/vue3-vite';
 import { join, dirname } from 'path';
+import { UserConfig, PluginOption } from 'vite';
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -22,6 +23,19 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: 'tag'
+  },
+  viteFinal: (config: UserConfig) => {
+    /**
+     * Remove the vite-plugin-dts to prevent
+     * that Storybook creates TS types. Otherwise
+     * the dts plugin runs twice with two different
+     * configurations in the GitHub CI/CD pipeline.
+     */
+    config.plugins = (config.plugins as PluginOption[])?.filter(
+      (plugin: PluginOption) => (plugin as any)?.name !== 'vite:dts'
+    );
+
+    return config;
   }
 };
 

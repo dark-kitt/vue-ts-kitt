@@ -1,5 +1,5 @@
 import { StoryObj } from '@storybook/vue3';
-import { DefineComponent, PropType, ButtonHTMLAttributes, ComponentOptionsMixin, PublicProps, ExtractPropTypes } from '../../../vue/dist/vue.esm-bundler.js';
+import { DefineComponent, PropType, ButtonHTMLAttributes, ComponentOptionsMixin, PublicProps, ExtractPropTypes } from 'vue';
 
 declare const meta: {
     title: string;

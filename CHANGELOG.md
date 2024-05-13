@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.9.0...v1.9.1) (2024-05-13)
+
+
+### Bug Fixes
+
+* **src:** + export Link component ([43bea5a](https://github.com/dark-kitt/vue-ts-kitt/commit/43bea5a583dd2dde0578ee6357eb206c602b39e8))
+
 # [1.9.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.8.4...v1.9.0) (2024-05-13)
 
 

@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.9.1...v1.10.0) (2024-05-15)
+
+
+### Features
+
+* **storybook:** + updated to v8.1.0 ([bba6897](https://github.com/dark-kitt/vue-ts-kitt/commit/bba68972c13a2cc90d34555b1a0bf77df56c8b26))
+
 ## [1.9.1](https://github.com/dark-kitt/vue-ts-kitt/compare/v1.9.0...v1.9.1) (2024-05-13)
 
 

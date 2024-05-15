@@ -56,7 +56,7 @@ declare const meta: {
     tags: string[];
     argTypes: {
         size: {
-            control: string;
+            control: "select";
             options: string[];
         };
     };

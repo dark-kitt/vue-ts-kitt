@@ -18,14 +18,14 @@ export default defineConfig({
     })
   ],
   resolve: {
-    extensions: ['.ts', '.vue', '.json'],
+    extensions: ['.md', '.mdx', '.ts', 'tsx', '.js', '.jsx', '.vue', '.json'],
     alias: {
       '@': resolve(__dirname, './src')
     }
   },
   build: {
     target: 'ESNext',
-    minify: false,
+    minify: true,
     reportCompressedSize: true,
     lib: {
       entry: resolve(__dirname, './src/index.ts'),

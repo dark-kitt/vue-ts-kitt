@@ -8,7 +8,16 @@
     "@vue/eslint-config-typescript",
     "eslint:recommended",
     "prettier",
-    "plugin:vue/vue3-recommended"
+    "plugin:vue/vue3-recommended",
+    "plugin:storybook/recommended",
+    "plugin:mdx/recommended"
+  ],
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "parser": "eslint-mdx", // enable `eslint-mdx` manually if it does not work
+      "extends": "plugin:mdx/recommended"
+    }
   ],
   "parser": "vue-eslint-parser",
   "parserOptions": {
